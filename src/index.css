@@ -266,6 +266,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 .nav-center {
   width: var(--view-width);
   max-width: var(--fixed-width);
@@ -273,6 +274,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 nav h4 {
   color: var(--white);
 }
@@ -300,13 +302,14 @@ nav h4 {
   color: var(--white);
   font-size: 1.25rem;
 }
+
 /*
 =============== 
 Cart
 ===============
 */
 .cart {
-  min-height: calc(100vh - 5rem);
+  min-height: cal(100vh - 5rem);
   width: var(--view-width);
   max-width: var(--fixed-width);
   margin: 0 auto;
@@ -347,11 +350,13 @@ hr {
   border-radius: var(--borderRadius);
   color: var(--white);
 }
+
 /*
 =============== 
 Cart Item
 ===============
 */
+
 .cart-item {
   display: grid;
   align-items: center;
@@ -403,6 +408,7 @@ Cart Item
 .amount-icon:hover {
   color: var(--primary-700);
 }
+
 .amount {
   font-size: 1.25rem;
   display: block;
